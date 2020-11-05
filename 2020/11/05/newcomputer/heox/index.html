@@ -17,26 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Windows下配置SOFA以及softrobotics插件 | My PhD life</title>
-  <meta name="description" content="记第一次在Windows下配置SOFA和SOFTRobotsThe first time use SOFA &amp; its SoftRobots Plugin 这次先在Windows环境下配置sofa框架以及softrobots插件，由于工作站是centOS的，所以之后还要再配置一下Linux环境下的SOFA。 准备工作1.python由于之前有过python开发经验所以以及备齐了python">
+  <title>newcomputer | My PhD life</title>
+  <meta name="description" content="我就试试迁移成功了没 12is it work?">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Windows下配置SOFA以及softrobotics插件">
-<meta property="og:url" content="https://i.jiajiarobot.top/2020/05/18/windowsandsofa/heox/index.html">
+<meta property="og:title" content="newcomputer">
+<meta property="og:url" content="https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="记第一次在Windows下配置SOFA和SOFTRobotsThe first time use SOFA &amp; its SoftRobots Plugin 这次先在Windows环境下配置sofa框架以及softrobots插件，由于工作站是centOS的，所以之后还要再配置一下Linux环境下的SOFA。 准备工作1.python由于之前有过python开发经验所以以及备齐了python">
+<meta property="og:description" content="我就试试迁移成功了没 12is it work?">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190813154531169.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190813154916584.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190813155416949.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190813155503251.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbGFpamlhbmc=,size_16,color_FFFFFF,t_70">
-<meta property="article:published_time" content="2020-05-18T12:19:31.000Z">
-<meta property="article:modified_time" content="2020-05-19T11:05:14.000Z">
+<meta property="article:published_time" content="2020-11-05T13:53:07.000Z">
+<meta property="article:modified_time" content="2020-11-05T13:55:44.437Z">
 <meta property="article:author" content="Arthur Xu">
-<meta property="article:tag" content="preparing">
+<meta property="article:tag" content="thinkings">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20190813154531169.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://i.jiajiarobot.top/2020/05/18/windowsandsofa/heox/index.html">
+  <link rel="canonical" href="https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -345,21 +340,21 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">文章目录</h3>
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#记第一次在Windows下配置SOFA和SOFTRobots"><span class="toc-number">1.</span> <span class="toc-text">记第一次在Windows下配置SOFA和SOFTRobots</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">1.1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-python"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.python</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Qt"><span class="toc-number">1.1.2.</span> <span class="toc-text">2.Qt</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-git"><span class="toc-number">1.1.3.</span> <span class="toc-text">3.git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-Visual-Studio"><span class="toc-number">1.1.4.</span> <span class="toc-text">4.Visual Studio</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-Ninja"><span class="toc-number">1.1.5.</span> <span class="toc-text">5.Ninja</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-SOFA软件本身"><span class="toc-number">1.1.6.</span> <span class="toc-text">6.SOFA软件本身</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-SOFTROBOTS-Plugin"><span class="toc-number">1.1.7.</span> <span class="toc-text">7.SOFTROBOTS-Plugin</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-SoftRobots-Inverse-plugin"><span class="toc-number">1.1.8.</span> <span class="toc-text">8. SoftRobots.Inverse plugin</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装过程"><span class="toc-number">1.2.</span> <span class="toc-text">安装过程</span></a></li></ol></li></ol>
+      
     </nav>
   </div>
 </aside>
 
 <main class="main" role="main">
   <div class="content">
-  <article id="post-windowsandsofa" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-newcomputer" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      Windows下配置SOFA以及softrobotics插件
+      newcomputer
     </h1>
   
 
@@ -367,20 +362,20 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2020/05/18/windowsandsofa/heox/" class="article-date">
-	  <time datetime="2020-05-18T12:19:31.000Z" itemprop="datePublished">2020-05-18</time>
+	<a href="/2020/11/05/newcomputer/heox/" class="article-date">
+	  <time datetime="2020-11-05T13:53:07.000Z" itemprop="datePublished">2020-11-05</time>
 	</a>
 </span>
         
   <span class="article-category">
     <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/">机器人</a>
+    <a class="article-category-link" href="/categories/PHD-life/">PHD_life</a>
   </span>
 
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/tags/preparing/" rel="tag">preparing</a>
+	<a class="article-tag-link" href="/tags/thinkings/" rel="tag">thinkings</a>
   </span>
 
 
@@ -393,46 +388,21 @@
 	</span>
 
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/05/18/windowsandsofa/heox/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/11/05/newcomputer/heox/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 780(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 13(字)</span>
 	
 	
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 2(分)</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 1(分)</span>
 	
 
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h1 id="记第一次在Windows下配置SOFA和SOFTRobots"><a href="#记第一次在Windows下配置SOFA和SOFTRobots" class="headerlink" title="记第一次在Windows下配置SOFA和SOFTRobots"></a>记第一次在Windows下配置SOFA和SOFTRobots</h1><p><strong>The first time use SOFA &amp; its SoftRobots Plugin</strong></p>
-<p>这次先在Windows环境下配置sofa框架以及softrobots插件，由于工作站是centOS的，所以之后还要再配置一下Linux环境下的SOFA。</p>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="1-python"><a href="#1-python" class="headerlink" title="1.python"></a>1.python</h3><p>由于之前有过python开发经验所以以及备齐了python27和python37，这里提醒一下同时装py2和py3会让pip报错，这个时候用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Python3 -m pip install --upgrade pip --force reinstall #这个给py3重新安装pip3</span><br><span class="line">Python2 -m pip install --upgrade pip    #这个给py2重新安装pip2，不用force</span><br></pre></td></tr></table></figure>
-<h3 id="2-Qt"><a href="#2-Qt" class="headerlink" title="2.Qt"></a>2.Qt</h3><p><del>这玩意是什么呢，这玩意就是个跨平台的图形开发器，点<a href="http://download.qt.io/official_releases/online_installers/" target="_blank" rel="noopener">这里</a>下载，嗯这个是在线安装的哈，离线包点<a href="http://download.qt.io/archive/qt/5.13/5.13.0/" target="_blank" rel="noopener">这个</a>这里推荐用离线的，下载速度不想git的弱鸡速度，很舒服。有点大，13版本的3.7个G，似乎不装也能打开图形界面，我先试试，没问题再过来更新吧。。。下一项</del> </p>
-<h3 id="3-git"><a href="#3-git" class="headerlink" title="3.git"></a>3.git</h3><p>git这个东西，你没装我才觉得奇怪    yummmmmmm没有的话，给个建议，找个镜像源装，git的速度，真的，，真的，急死人了，不是take a coffee，简直可以take a sleep，然后醒过来你发现，呀，下载报错了，咯咯咯咯咯</p>
-<h3 id="4-Visual-Studio"><a href="#4-Visual-Studio" class="headerlink" title="4.Visual Studio"></a>4.Visual Studio</h3><p>15和17都行，17吧，没有就百度，没啥好说的</p>
-<h3 id="5-Ninja"><a href="#5-Ninja" class="headerlink" title="5.Ninja"></a>5.Ninja</h3><p>官网推荐装的，还没整明白，git库直接撸就行，过几天我整完了Linux系统的配置再来整这个。</p>
-<h3 id="6-SOFA软件本身"><a href="#6-SOFA软件本身" class="headerlink" title="6.SOFA软件本身"></a>6.SOFA软件本身</h3><p>下载地址点<a href="https://www.sofa-framework.org/download/" target="_blank" rel="noopener">这个</a>，哦，，对了这里提醒一下，下载时候弄一下host文件，etc/hosts，把git的IP映射一下，会稍微快一点，不然这个shi一样的速度真的弄死你。具体的请百度git下载加速。下一个。。。</p>
-<h3 id="7-SOFTROBOTS-Plugin"><a href="#7-SOFTROBOTS-Plugin" class="headerlink" title="7.SOFTROBOTS-Plugin"></a>7.SOFTROBOTS-Plugin</h3><ol>
-<li>新建一个文件夹 x</li>
-<li>在文件夹中右击 git bash here</li>
-<li>复制这条进去<code>git clone https://github.com/SofaDefrost/SoftRobots</code></li>
-<li>回车</li>
-<li>take a sleep，睡醒没出错就恭嘿侬了</li>
-</ol>
-<h3 id="8-SoftRobots-Inverse-plugin"><a href="#8-SoftRobots-Inverse-plugin" class="headerlink" title="8. SoftRobots.Inverse plugin"></a>8. SoftRobots.Inverse plugin</h3><p>这玩意不用装，不mail给开发团队要权限你也装不上，好了，准备完事了，就能开始装了<br> 休息一会，一会再写</p>
-<h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><p>修正一下，不用下QT了，我在6中给的连接下载，下的exe包，直接安装，就不需要QT，，ninja是用来代替Nmake的，用安装包安装不报错</p>
-<ol>
-<li>安装SOFA的过程中，记得点<img src="https://img-blog.csdnimg.cn/20190813154531169.png" alt="在这里插入图片描述">忘记点的也没事。<br>take next step<ol start="2">
-<li>右击我的电脑，属性，左边的高级系统设置，然后找到‘高级‘这一栏，点进去，再点下方的环境变量，然后双击这个path<img src="https://img-blog.csdnimg.cn/20190813154916584.png" alt="在这里插入图片描述"></li>
-<li>找到你安装sofa的位置，默认的位置应该是在C:\User\user\AppDate\Loca\Programm\SOFA\V19.06.01第二个user是你自己的用户名，如果是默认的地址那就把C:\User\user\AppDate\Loca\Programm\SOFA\V19.06.01\bin添加到path那里去。然后就完事了</li>
-<li>配置好了以后，找到<img src="https://img-blog.csdnimg.cn/20190813155416949.png" alt="在这里插入图片描述">双击然后就变成了这样<br><img src="https://img-blog.csdnimg.cn/20190813155503251.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbGFpamlhbmc=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>旁边类似dos界面的窗口不体术warming就说明没问题了，然后下来，我们就开始配置softrobots了。</li>
-</ol>
-</li>
-</ol>
-
+        <p>我就试试迁移成功了没</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">is it work?</span><br></pre></td></tr></table></figure>
       
     </div>
     <div class="article-footer">
@@ -441,7 +411,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-           <a href="https://i.jiajiarobot.top/2020/05/18/windowsandsofa/heox/" title="Windows下配置SOFA以及softrobotics插件" target="_blank" rel="external">https://i.jiajiarobot.top/2020/05/18/windowsandsofa/heox/</a>
+           <a href="https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/" title="newcomputer" target="_blank" rel="external">https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -487,13 +457,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2020/05/19/testing/heox/" title="hexo排坑"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2020/05/18/hello-world/heox/" title="Hello World"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2020/06/16/pachong/heox/" title="一个小爬虫"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     

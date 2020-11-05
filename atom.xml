@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://i.jiajiarobot.top/"/>
-  <updated>2020-06-16T07:41:36.000Z</updated>
+  <updated>2020-11-05T13:55:44.437Z</updated>
   <id>https://i.jiajiarobot.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>newcomputer</title>
+    <link href="https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/"/>
+    <id>https://i.jiajiarobot.top/2020/11/05/newcomputer/heox/</id>
+    <published>2020-11-05T13:53:07.000Z</published>
+    <updated>2020-11-05T13:55:44.437Z</updated>
+    
+    <content type="html"><![CDATA[<p>我就试试迁移成功了没</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">is it work?</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我就试试迁移成功了没&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/sp
+      
+    
+    </summary>
+    
+    
+      <category term="PHD_life" scheme="https://i.jiajiarobot.top/categories/PHD-life/"/>
+    
+    
+      <category term="thinkings" scheme="https://i.jiajiarobot.top/tags/thinkings/"/>
+    
+  </entry>
   
   <entry>
     <title>一个小爬虫</title>
